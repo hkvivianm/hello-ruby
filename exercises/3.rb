@@ -15,3 +15,11 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+mylist =["milk", "eggs", "apples", "butter"]
+kailist=["chicken", "butter", "spinach"]
+
+combined = mylist + kailist
+
+# puts combined.sort
+
+puts combined.uniq.sort
